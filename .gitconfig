@@ -1,0 +1,20 @@
+[alias]
+  # basic
+  co = checkout
+  st = status
+
+  # additional
+  unstage = reset HEAD
+  discard = checkout --
+
+  # diffs
+  ds = diff --staged
+  wd = diff --word-diff --ignore-all-space
+  wds = diff --word-diff --ingore-all-space --staged
+
+  # logs
+  g = log --graph --decorate --pretty=format:'%C(yellow)%h%C(reset) - %s%d %C(dim white)- %an%C(reset)'
+
+  #status
+  sts = status -s
+  stl = status
