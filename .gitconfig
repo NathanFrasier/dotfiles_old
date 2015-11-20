@@ -10,7 +10,7 @@
   # diffs
   ds = diff --staged
   wd = diff --word-diff --ignore-all-space
-  wds = diff --word-diff --ingore-all-space --staged
+  wds = diff --word-diff --ignore-all-space --staged
 
   # logs
   g = log --graph --decorate --pretty=format:'%C(yellow)%h%C(bold white) - %s%C(auto)%d %C(dim white)- %an%C(reset)'
