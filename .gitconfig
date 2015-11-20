@@ -7,6 +7,7 @@
   # additional
   unstage = reset HEAD
   discard = checkout --
+  a = add -A
 
   # diffs
   ds = diff --staged
