@@ -13,7 +13,7 @@
   wds = diff --word-diff --ingore-all-space --staged
 
   # logs
-  g = log --graph --decorate --pretty=format:'%C(yellow)%h%C(reset) - %s%C(auto)%d %C(dim white)- %an%C(reset)'
+  g = log --graph --decorate --pretty=format:'%C(yellow)%h%C(bold white) - %s%C(auto)%d %C(dim white)- %an%C(reset)'
 
   #status
   sts = status -s
