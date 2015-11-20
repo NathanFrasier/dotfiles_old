@@ -20,3 +20,6 @@
   #status
   sts = status -s
   stl = status
+
+  #meta
+  la = "!git config -l | grep alias | cut -c 7-"
