@@ -2,6 +2,7 @@
   # basic
   co = checkout
   st = status
+  br = branch
 
   # additional
   unstage = reset HEAD
