@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 import platform
+import os
+import subprocess
 
 def main():
     bootstrap_switch = {"Linux":linux_bootstrap}
@@ -10,7 +12,7 @@ def main():
         print("I don't know how to bootstrap this system!")
 
 def linux_bootstrap():
-    pass
-
+    os.environ["TESTVAR"] = "It works again"
+    subprocess.call(["./test.zsh"])
 if __name__ == '__main__':
     main()
