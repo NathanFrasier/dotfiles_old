@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 import platform
 
-bootstrap_switch = {"Linux":linux_bootstrap}
-
 def main():
+    bootstrap_switch = {"Linux":linux_bootstrap}
     #call one of the bootstrap functions based on the current OS system
     try:
         bootstrap_switch[platform.system()]()
@@ -12,5 +11,6 @@ def main():
 
 def linux_bootstrap():
     pass
+
 if __name__ == '__main__':
     main()
