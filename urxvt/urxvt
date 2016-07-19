@@ -1,9 +1,9 @@
 #include "solarized.dark"
 
-URxvt*font:xft:Ubuntu Mono
-URxvt*boldFont:xft:Ubuntu Mono:bold
-URxvt*italicFont:xft:Ubuntu Mono:italic
-URxvt*boldItalicFont:xft:Ubuntu Mono:bold:italic
+URxvt*font:xft:Ubuntu Mono:size=8
+URxvt*boldFont:xft:Ubuntu Mono:bold:size=8
+URxvt*italicFont:xft:Ubuntu Mono:italic:size=8
+URxvt*boldItalicFont:xft:Ubuntu Mono:bold:italic:size=8
 
 URxvt*intensityStyles: false
 
