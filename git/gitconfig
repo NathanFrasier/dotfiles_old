@@ -24,3 +24,6 @@
 
   #meta
   la = "!git config -l | grep alias | cut -c 7-"
+[user]
+	email = nanoshot.nf@gmail.com
+	name = Nathan Frasier
